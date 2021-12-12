@@ -1,27 +1,23 @@
-import Header_top from './components/sections/Header-top'
-import Header_bottom from './components/sections/Header-bottom'
-import Banner from './components/sections/Banner'
-import Filler_Section from './components/sections/Filler_Section'
-import About_Section from './components/sections/About_Section'
-import Section_noname from './components/sections/Section_noname'
-import Testimonial_Section from './components/sections/Testimonial_Section'
-import Footer from './components/sections/Footer'
-import { ChakraProvider } from "@chakra-ui/react";
+import { Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
+import Partners from "./pages/Partners";
+import Clients from "./pages/Clients";
+import Testimonials from "./pages/Testimonials";
+import News from "./pages/News";
+import ContactUs from "./pages/ContactUs";
 
-import theme from "./components/ui/theme"
 
 function App() {
   return (
-    <ChakraProvider theme={theme}>
-      <Header_top/>
-      <Header_bottom />
-      <Banner />
-      <About_Section />
-      <Filler_Section />
-      <Section_noname />
-      <Testimonial_Section />
-      <Footer />
-    </ChakraProvider>
+    <Switch>
+      <Route path="/" component={Home} />
+      <Route path="/partners" component={Partners} />
+      <Route path="/clients" component={Clients} />
+      <Route path="/testimonials" component={Testimonials} />
+      <Route path="/news" component={News} />
+      <Route path="/contactus" component={ContactUs} />
+      <Route component={Error} />
+    </Switch>
   );
 }
 
