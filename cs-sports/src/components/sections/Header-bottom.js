@@ -3,14 +3,14 @@ import { Flex, Image, Spacer, Text, VStack, HStack, Button } from '@chakra-ui/re
 
 function Header() {
     return (
-        <HStack p={15} backgroundColor="#005154" flexDirection="row" w="100%" alignItems="center" w="full" h="full">
-            <Flex flexDirection="row" w="100%" alignItems="center" mr={72} ml={72}>
-                <Button color="white" mr={24} backgroundColor="transparent">HOME</Button>
-                <Button color="white" mr={24} backgroundColor="transparent">PARTNERS</Button>
-                <Button color="white" mr={24} backgroundColor="transparent">CLIENTS</Button>
-                <Button color="white" mr={24} backgroundColor="transparent">TESTIMONIALS</Button>
-                <Button color="white" mr={24} backgroundColor="transparent">NEWS</Button>
-                <Button color="white" mr={24} backgroundColor="transparent">CONTACT US</Button>
+        <HStack p={2} backgroundColor="#005154" flexDirection="row" w="100%" alignItems="center" justifyContent="center" w="full" h="full">
+            <Flex flexDirection="row" w="100%" alignItems="center" justifyContent="center">
+                <Button color="white" mr={18} variant='ghost'>HOME</Button>
+                <Button color="white" mr={18} variant='ghost'>PARTNERS</Button>
+                <Button color="white" mr={18} variant='ghost'>CLIENTS</Button>
+                <Button color="white" mr={18} variant='ghost'>TESTIMONIALS</Button>
+                <Button color="white" mr={18} variant='ghost'>NEWS</Button>
+                <Button color="white" mr={18} variant='ghost'>CONTACT US</Button>
             </Flex>
         </HStack>
     )

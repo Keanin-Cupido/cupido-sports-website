@@ -8,7 +8,7 @@ import source from "./img/cs_logo_design.png"
 
 function Header() {
     return (
-        <HStack p={15} alignItems="center" backgroundColor="#2DB2B6" flexDirection="row" w="100%" alignItems="center" m={0} w="full">
+        <HStack p={18} alignItems="center" backgroundColor="#2DB2B6" flexDirection="row" w="100%" alignItems="center" m={0} w="full">
             <Flex flexDirection="row" w="100%" alignItems="center" mr={72} ml={72}>
                 <Image h="65px" src={source} fallbackSrc='https://via.placeholder.com/150'/>
                 <Spacer />
