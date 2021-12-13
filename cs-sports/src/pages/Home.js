@@ -5,7 +5,7 @@ import Filler_Section from '../components/sections/Filler_Section';
 import About_Section from '../components/sections/About_Section';
 import Section_noname from '../components/sections/Section_noname';
 import Testimonial_Section from '../components/sections/Testimonial_Section';
-
+import Footer from '../components/sections/Footer';
 
 function Home() {
   return (
