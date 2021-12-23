@@ -6,6 +6,8 @@ import About_Section from '../components/sections/About_Section';
 import Section_noname from '../components/sections/Section_noname';
 import Testimonial_Section from '../components/sections/Testimonial_Section';
 import Footer from '../components/sections/Footer';
+import Featured_Players from '../components/sections/Featured-Players';
+import Showreels_Section from '../components/sections/Showreels_Section';
 
 function Home() {
   return (
@@ -17,6 +19,8 @@ function Home() {
           <Filler_Section />
           <Section_noname />
           <Testimonial_Section />
+          <Featured_Players />
+          <Showreels_Section />
           <Footer />
       </main>
   );

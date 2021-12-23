@@ -15,7 +15,7 @@ function Section_noname() {
                     Vivamus nec dolor ut urna hendrerit iaculis et euismod augue.</Text>
                 <Button justifyContent="center" textAlign="center" backgroundColor="#2DB2B6" size="sm" ml="75%" mt={10} mb={50} variant='solid' right={0}>LEARN MORE</Button>
             </Flex>
-            <Image src={about_img} position="absolute" textAlign="left" justifyContent="left" left="15%" width="600px"/>
+            <Image className='zoom_img' src={about_img} position="absolute" textAlign="left" justifyContent="left" left="15%" width="600px"/>
         </Flex>
     )
 }

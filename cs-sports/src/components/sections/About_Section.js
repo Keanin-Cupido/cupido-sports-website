@@ -15,7 +15,7 @@ function About_Section() {
                     Vivamus nec dolor ut urna hendrerit iaculis et euismod augue.</Text>
                 <Button justifyContent="center" textAlign="center" width="20%" backgroundColor="#2DB2B6" size="sm" mt={10} mb={50} variant='solid'>LEARN MORE</Button>
             </Flex>
-            <Image src={about_img} position="absolute" textAlign="right" justifyContent="right" right="15%"/>
+            <Image className='zoom_img' src={about_img} position="absolute" textAlign="right" justifyContent="right" right="15%"/>
         </Flex>
     )
 }
