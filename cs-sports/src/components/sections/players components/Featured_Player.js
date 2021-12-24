@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Heading, Image, ScaleFade } from '@chakra-ui/react'
+import { Avatar, Box, Button, Flex, Heading, HStack, Image, ScaleFade, Tag, TagLabel, TagLeftIcon } from '@chakra-ui/react'
 import React from 'react'
 import "./Featured_Player.css"
 
@@ -11,12 +11,20 @@ function Featured_Player(props) {
                 <Image className='zoom_img' src={props.fp_image} width="auto" height="auto"/>
             </Flex>
 
-            <Box backgroundColor={bcol} alignItems="center" justifyContent="center" bottom={0} padding="30px">
+            <Box className='box' bgGradient='linear(to-b, #2DB2B6, #005154)' alignItems="center" justifyContent="center" bottom={0} padding="30px">
                 <Flex flexDirection="column" marginBottom={8} justifyContent="left">
                     <Heading fontSize="5xl">{props.fp_fname}</Heading> 
                     <Heading fontSize="5xl">{props.fp_sname}</Heading>
+
+                    <HStack spacing={4} marginTop={4}>
+                            <Tag size="md" variant='subtle' colorScheme='cyan'>
+                                {/* <TagLeftIcon boxSize='12px' as={AddIcon} /> */}
+                                <TagLabel>{props.role}</TagLabel>
+                            </Tag>
+                    </HStack>
                 </Flex>
-                <Button textAlign="center">VIEW {props.fp_fname}'S FULL PROFILE</Button>
+
+                <Button textAlign="center" justifyContent="center" alignItems="center">VIEW {props.fp_fname}'S FULL PROFILE</Button>
             </Box>
         </Flex>
     )

@@ -1,0 +1,12 @@
+.zoom-button-element {
+    transition: transform .3s ease;
+}
+
+.zoom-button-element:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.widgets {
+
+}

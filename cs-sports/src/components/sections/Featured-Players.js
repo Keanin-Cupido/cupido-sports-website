@@ -20,21 +20,25 @@ function Videos_Section() {
                         fp_image={fp_player1_img} 
                         fp_fname="JOHN"
                         fp_sname="DOE"
+                        role="Batsman"
                     />
                     <Featured_Player 
                         fp_image={fp_player1_img} 
                         fp_fname="JOHN"
                         fp_sname="DOE"
+                        role="Batsman"
                     />
                     <Featured_Player 
                         fp_image={fp_player1_img} 
                         fp_fname="JOHN"
                         fp_sname="DOE"
+                        role="Batsman"
                     />
                     <Featured_Player 
                         fp_image={fp_player1_img} 
                         fp_fname="JOHN"
                         fp_sname="DOE"
+                        role="Batsman"
                     />
                 </Flex>
 

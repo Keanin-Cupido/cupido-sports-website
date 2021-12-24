@@ -50,7 +50,7 @@ function Footer() {
                     </Flex>
                 </Flex>
             </Flex>
-            <Flex flexDirection="row" backgroundColor="#00292B" pt={15} pb={15} textAlign="center" justifyContent="center">© Cupido Sports – All Rights Reserved</Flex>
+            <Flex flexDirection="row" backgroundColor="#00292B" pt={15} pb={15} textAlign="center" justifyContent="center" fontSize="sm">© Cupido Sports – All Rights Reserved</Flex>
         </Flex>
     )
 }
