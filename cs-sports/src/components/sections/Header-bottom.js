@@ -11,10 +11,12 @@ function Header() {
         >
             <Flex flexDirection="row" w="100%" alignItems="center" justifyContent="center">
                 <Button color="white" mr={18} variant='ghost' as={ReactLink} to="/">HOME</Button>
+                <Button color="white" mr={18} variant='ghost' as={ReactLink} to="/programmes">PROGRAMMES</Button>
                 <Button color="white" mr={18} variant='ghost' as={ReactLink} to="/partners">PARTNERS</Button>
                 <Button color="white" mr={18} variant='ghost' as={ReactLink} to="/clients">CLIENTS</Button>
                 <Button color="white" mr={18} variant='ghost' as={ReactLink} to="/testimonials">TESTIMONIALS</Button>
                 <Button color="white" mr={18} variant='ghost' as={ReactLink} to="/news">NEWS</Button>
+                <Button color="white" mr={18} variant='ghost' as={ReactLink} to="/photogallery">GALLERY</Button>
                 <Button color="white" mr={18} variant='ghost' as={ReactLink} to="/contactus">CONTACT US</Button>
             </Flex>
         </HStack>
